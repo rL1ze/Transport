@@ -18,7 +18,7 @@ public:
 	Motorcycle();
 	Motorcycle(int amountOfWheels = 0, int amountOfPassengers = 0, int speed = 0, bool isSport = false);
 	~Motorcycle();
-	void printInfo() const override;
+	void printInfo() override;
 private:
 	bool _isSport = false;
 };
