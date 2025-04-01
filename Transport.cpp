@@ -17,7 +17,7 @@ Motorcycle::Motorcycle(int amountOfWheels, int amountOfPassengers, int speed, bo
 Motorcycle::~Motorcycle() {};
 
 void Motorcycle::printInfo() const {
-	cout << "\nНаименование транспорта мотоцикл:" << "\nКол - во колёс: "
+	cout << "Наименование транспорта мотоцикл:" << "Кол - во колёс: "
 		<< _amountOfWheels << "\nКол-во пассажиров:  " 
 		<< _amountOfPassengers << "\nСкорость:  " << _speed 
 		<< "\nМашина спортивная:  " << (_isSport ? "Да" : "Нет")
