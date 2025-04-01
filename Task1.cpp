@@ -7,8 +7,6 @@ using namespace std;
 
 int main()
 {
-	//setlocale(LC_ALL, "Russian");
-
 	vector<Transport*> transports;
 
 	int type = 0;
